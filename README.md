@@ -8,12 +8,10 @@ Zip Files larger than 1 GB    -   95%-103% improvement
 Dependencies:                                                                                                                                                     
 commons-compress-1.1x.jar or higher                                                                                                                             
 
-Sample Program:
-
+Sample Program 1:                                                                                                                                                            
 QuickUnzip unzipper = new QuickUnzip();                                                                                                                        
 unzipper.extract("/Users/john/Test.zip");
 
-or
-
+Sample Program 2:                                                                                                                                                           
 QuickUnzip unzipper = new QuickUnzip();                                                                                                                        
 unzipper.extract("/Users/john/Test.zip", "/Users/john/backup/Test");
