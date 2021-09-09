@@ -7,12 +7,12 @@ Zip Files larger than 1 GB    -   93%-100% improvement
 
 Sample Program
 
-QuickUnzip unzipper = new QuickUnzip();
+QuickUnzip unzipper = new QuickUnzip();                                                                                                                        
 unzipper.extract("/Users/john/Test.zip");
 
 or
 
-QuickUnzip unzipper = new QuickUnzip();
+QuickUnzip unzipper = new QuickUnzip();                                                                                                                        
 unzipper.extract("/Users/john/Test.zip", "/Users/john/backup/Test");
 
 
